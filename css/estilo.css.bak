@@ -1,7 +1,7 @@
 *{
-margin: 0px;
+margin: 50px;
 padding: 0px;
-background-color:lack;	
+background-color:black;	
 }
 body{
 color:yellow;	

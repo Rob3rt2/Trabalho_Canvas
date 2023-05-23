@@ -12,8 +12,9 @@
 <h1>Outer Wilds - Sistema solar</h1>
 <br>
 <br>
+<br>
 <canvas id = "canvas"></canvas>
-<canvas id = "canvas1"></canvas>
+
 
 <script src = "js/script.js"></script>
 
