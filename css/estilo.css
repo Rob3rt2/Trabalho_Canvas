@@ -1,0 +1,13 @@
+*{
+margin: 0px;
+padding: 0px;
+background-color:black;	
+}
+body{
+color:yellow;	
+}
+h1{
+text-align:center;
+font-family:courier;
+padding:2px;	
+}
