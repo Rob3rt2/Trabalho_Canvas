@@ -80,6 +80,6 @@ ctx.fill();
 ctx.beginPath();
 ctx.moveTo(960, 400);
 ctx.quadraticCurveTo(1000,380, 1050, 400);
-ctx.
+ctx.quadratiCurveTo();
 
 ctx.stroke(); 
