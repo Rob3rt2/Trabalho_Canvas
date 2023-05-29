@@ -22,6 +22,16 @@ ctx.moveTo(200,200);
 ctx.fillStyle = "#FFA500";
 ctx.fill();
 
+ctx.beginPath();
+ctx.arc(350, 400, 33,0, Math.PI * 2, true);
+ctx.fillStyle = "	#1C1C1C";
+ctx.fill();
+
+
+ctx.beginPath();
+ctx.arc(440, 401.5, 39,0, Math.PI * 2, true);
+ctx.fillStyle = "	#1C1C1C";
+ctx.fill();
 
 ctx.beginPath();
 ctx.arc(350,400,30,0, Math.PI *2,true);
@@ -40,11 +50,13 @@ ctx.moveTo (200,200);
 ctx.fillStyle = "#FFDEAD";
 ctx.fill();
 
+
+
+
 ctx.beginPath();
 ctx.arc(440,400, 10, 0,Math.PI * 2, true);
 ctx.moveTo (200,200);
 ctx.stroke();
-
 
 ctx.beginPath();
 ctx.arc(440,400,35, 0, Math.PI, true);
@@ -58,6 +70,29 @@ ctx.arc(440,403,35,0,Math.PI,false);
 ctx.fillStyle = "B22222";
 ctx.fill();
 
+ctx.beginPath();
+ctx.moveTo(440,400);
+ctx.quadraticCurveTo(430,390,410,380);
+ctx.quadraticCurveTo(440,390,470,380);
+ctx.quadraticCurveTo(440,390,444,400);
+ctx.fillStyle = "	#800000";
+ctx.fill();
+
+ctx.beginPath();
+ctx.moveTo(440, 403);
+ctx.quadraticCurveTo(430,404, 407, 415);
+ctx.quadraticCurveTo(440,403,450, 415);
+ctx.quadraticCurveTo(440,420, 460,423);
+ctx.quadraticCurveTo(450,410, 460,408);
+ctx.quadraticCurveTo(460, 407, 445,403);
+ctx.fillStyle = "#800000";
+ctx.fill();
+
+
+ctx.beginPath();
+ctx.arc(700, 403, 75,0, Math.PI * 2, true);
+ctx.fillStyle = "	#1C1C1C";
+ctx.fill();
 
 ctx.beginPath();
 ctx.arc(700,403, 70,0, Math.PI *2, true);
@@ -67,9 +102,24 @@ ctx.fill();
 ctx.beginPath();
 ctx.moveTo(689, 333);
 ctx.quadraticCurveTo(700,390,768,383);
-ctx.quadraticCurveTo(669,537,720,425);
-ctx.quadraticCurveTo(620,300, 700,370); 
+ctx.quadraticCurveTo(700,428,700,473);
+ctx.quadraticCurveTo(659,478,700,435);
+ctx.quadraticCurveTo(700,370, 679,336); 
 ctx.fillStyle = "#4169E1";
+ctx.fill();
+
+ctx.beginPath();
+ctx.moveTo(697,335);
+ctx.quadraticCurveTo(685,336, 675,340);
+ctx.quadraticCurveTo(680, 331,682, 332);
+ctx.quadraticCurveTo(686, 331, 687,331);
+ctx.quadraticCurveTo(688,333, 697,335);
+ctx.fillStyle = "#708090";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(1000, 400, 85,0, Math.PI * 2, true);
+ctx.fillStyle = "	#1C1C1C";
 ctx.fill();
 
 ctx.beginPath();
@@ -77,9 +127,47 @@ ctx.arc(1000,400,80,0,Math.PI*2,true);
 ctx.fillStyle = "#6959CD";
 ctx.fill();
 
-ctx.beginPath();
-ctx.moveTo(960, 400);
-ctx.quadraticCurveTo(1000,380, 1050, 400);
-ctx.quadratiCurveTo();
 
-ctx.stroke(); 
+ctx.beginPath();
+ctx.moveTo(970, 350);
+ctx.quadraticCurveTo(1000,380, 1050, 350);
+ctx.quadraticCurveTo(1020,416, 1070,370);
+ctx.quadraticCurveTo(1020,440, 1000, 460);
+ctx.quadraticCurveTo(1000,440, 930,410);
+ctx.quadraticCurveTo(975,405, 970,350);
+ctx.fillStyle = "#C71585";
+ctx.fill(); 
+
+
+ctx.moveTo(970, 350);
+ctx.lineTo(1000,460);
+ctx.lineTo(1020,380);
+ctx.lineTo(1010,380);
+ctx.lineTo(1040,390);
+ctx.lineTo(930,410);
+ctx.strokeStyle = "#000";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(1000,400, 30,0, Math.PI * 2);
+ctx.fillStyle ="	#4B0082";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(1000,400, 26,0, Math.PI * 2);
+ctx.fillStyle ="#000";
+ctx.fill();
+
+ctx.beginPath();
+ctx.moveTo(970, 325);
+ctx.quadraticCurveTo(1000,335, 1030,325);
+ctx.quadraticCurveTo(1000,315, 970, 325);
+ctx.fillStyle ="#ADD8E6";
+ctx.fill();
+
+ctx.beginPath();
+ctx.moveTo(980, 325);
+ctx.quadraticCurveTo(1000, 330, 1020, 325);
+ctx.quadraticCurveTo(1000, 305, 980, 325);
+ctx.fillStyle ="#DAA520";
+ctx.fill();
