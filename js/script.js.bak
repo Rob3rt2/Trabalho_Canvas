@@ -5,7 +5,7 @@ ctx.canvas.width = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
 
 ctx.beginPath();
-ctx.arc(0,400,250,0, Math.PI * 2, true);
+ctx.arc(0,400,260,0, Math.PI * 2, true);
 ctx.moveTo(400,400);
 ctx.fillStyle = "	#FF4500";
 ctx.fill();
@@ -169,10 +169,36 @@ ctx.beginPath();
 ctx.moveTo(980, 325);
 ctx.quadraticCurveTo(1000, 330, 1020, 325);
 ctx.quadraticCurveTo(1000, 305, 980, 325);
-ctx.fillStyle ="#DAA520";
+ctx.fillStyle ="	#B8860B";
+ctx.fill();
+
+
+
+ctx.beginPath();
+ctx.arc(1400, 400, 163, 0, Math.PI * 2, true);
+ctx.fillStyle ="	#FFFFF0";
 ctx.fill();
 
 ctx.beginPath();
 ctx.arc(1400, 400, 160, 0, Math.PI * 2, true);
 ctx.fillStyle ="#3CB371";
 ctx.fill();
+
+ctx.beginPath();
+ctx.moveTo(1340,250);
+ctx.bezierCurveTo(1370, 260, 1380, 260, 1410, 260);
+ctx.bezierCurveTo(1380, 255, 1370, 255, 1345, 247);
+ctx.bezierCurveTo(1400, 255, 1410, 255, 1440, 255);
+ctx.bezierCurveTo(1410, 250, 1400, 250, 1360, 243);
+ctx.fillStyle ="#FFFFF0";
+ctx.fill();
+
+ctx.beginPath();
+ctx.moveTo(1305, 270);
+ctx.bezierCurveTo(1320, 280, 1340, 280, 1370, 280);
+ctx.bezierCurveTo(1400, 300, 1430, 270, 1531, 310);
+ctx.bezierCurveTo(1535, 320, 1545,335, 1550, 355);
+ctx.bezierCurveTo(1500, 345, 1460, 335, 1400, 345);
+ctx.strokeStyle = "#2E8B57";
+ctx.stroke(); 
+
