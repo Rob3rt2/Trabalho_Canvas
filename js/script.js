@@ -5,19 +5,19 @@ ctx.canvas.width = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
 
 ctx.beginPath();
-ctx.arc(0,400,230,0, Math.PI * 2, true);
+ctx.arc(0,400,260,0, Math.PI * 2, true);
 ctx.moveTo(400,400);
 ctx.fillStyle = "	#FF4500";
 ctx.fill();
 
 ctx.beginPath();
-ctx.arc(0, 400,200, 0, Math.PI * 2, true);
+ctx.arc(0, 400,220, 0, Math.PI * 2, true);
 ctx.moveTo(200,200);
 ctx.fillStyle = "		#FF8C00";
 ctx.fill();
 
 ctx.beginPath();
-ctx.arc(0,400,150,0, Math.PI *2, true);
+ctx.arc(0,400,180,0, Math.PI *2, true);
 ctx.moveTo(200,200);
 ctx.fillStyle = "#FFA500";
 ctx.fill();
@@ -170,4 +170,9 @@ ctx.moveTo(980, 325);
 ctx.quadraticCurveTo(1000, 330, 1020, 325);
 ctx.quadraticCurveTo(1000, 305, 980, 325);
 ctx.fillStyle ="#DAA520";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(1400, 400, 160, 0, Math.PI * 2, true);
+ctx.fillStyle ="#3CB371";
 ctx.fill();
