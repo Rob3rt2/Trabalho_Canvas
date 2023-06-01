@@ -239,13 +239,28 @@ ctx.beginPath();
 ctx.moveTo(1307, 270);
 ctx.bezierCurveTo(1320, 280, 1340, 280, 1370, 280);
 ctx.bezierCurveTo(1400, 300, 1430, 270, 1531, 310);
-ctx.bezierCurveTo(1535, 320, 1545,335, 1550, 355);
+ctx.bezierCurveTo(1535, 320, 1545, 335, 1553, 355);
 ctx.bezierCurveTo(1500, 345, 1460, 360, 1400, 345);
 ctx.bezierCurveTo(1350, 360, 1340, 325, 1256, 330);
 ctx.bezierCurveTo(1265, 320, 1258, 316, 1307, 270);
 ctx.fillStyle = "#2E8B57";
 ctx.fill(); 
 
+ctx.beginPath();
+ctx.moveTo(1240, 400);
+ctx.bezierCurveTo(1340, 410, 1360, 400, 1335, 395);
+ctx.bezierCurveTo(1350, 390, 1410, 410, 1450, 415);
+ctx.bezierCurveTo(1460, 430, 1490, 400, 1560, 410);
+ctx.bezierCurveTo(1550, 470, 1540, 480, 1530, 490);
+ctx.bezierCurveTo(1450, 500, 1340, 490, 1390, 480); 
+ctx.bezierCurveTo(1300, 490, 1390, 500, 1270, 493);
+ctx.bezierCurveTo(1250, 460, 1246, 455, 1240, 400);
+ctx.fillStyle = "#2E8B57";
+ctx.fill();
 
-
-
+ctx.beginPath();
+ctx.moveTo(1320, 370);
+ctx.bezierCurveTo(1350, 370, 1380, 360, 1430, 365);
+ctx.bezierCurveTo(1450, 380, 1500, 370, 1550, 390);
+ctx.strokeStyle = "#2E8B57";
+ctx.stroke();
